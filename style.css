@@ -1,0 +1,42 @@
+/*
+	Syntax for CSS
+	selector {
+		property: value;
+	}
+*/
+/*Universal Selector - selects all html elements*/
+*{
+	font-family: "Roboto", sans-serif;
+
+}
+
+/*Tag selector*/
+h1, p {
+	font-family: "Montserrat", sans-serif;
+	
+}
+
+body {
+	background-color: #ffffff;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 200 200'%3E%3Cpolygon fill='%23DCEFFA' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E");
+}
+
+/*ID selector*/
+#profile {
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+}
+
+.container {
+	flex-wrap: center;
+}
+
+/**/
+#landing {
+	height: 80vh; /* viewport height (vh) measured percentaged of the  height of the device viewing your webpage */
+	display: flex; /* sets elements into flex items */
+	flex-direction: column; /* arranges flex items into a column */
+	justify-content: center; /* arranges elements horizontally if the flex items are in row */
+	align-items: center; /* arranges all flex items to be centerred vertically */
+}
